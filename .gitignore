@@ -1,0 +1,9 @@
+# Ignoruj virtuální prostředí
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code konfigurace
+.vscode/
