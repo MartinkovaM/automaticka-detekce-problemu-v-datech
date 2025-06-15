@@ -1,0 +1,17 @@
+{
+    "new_columns": [
+        "NOx_GT",
+        "FakeColumn"
+    ],
+    "missing_columns": [
+        "NOx(GT)",
+        "AH"
+    ],
+    "type_changes": [
+        {
+            "column": "T",
+            "from": "Numeric",
+            "to": "Categorical"
+        }
+    ]
+}

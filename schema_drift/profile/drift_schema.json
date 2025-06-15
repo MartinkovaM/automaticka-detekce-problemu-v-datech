@@ -1,0 +1,55 @@
+{
+    "_meta": {
+        "total_columns": 15,
+        "type_counts": {
+            "DateTime": 1,
+            "Categorical": 3,
+            "Numeric": 11
+        }
+    },
+    "Date": {
+        "type": "DateTime"
+    },
+    "Time": {
+        "type": "Categorical"
+    },
+    "CO(GT)": {
+        "type": "Numeric"
+    },
+    "PT08.S1(CO)": {
+        "type": "Numeric"
+    },
+    "NMHC(GT)": {
+        "type": "Numeric"
+    },
+    "C6H6(GT)": {
+        "type": "Numeric"
+    },
+    "PT08.S2(NMHC)": {
+        "type": "Numeric"
+    },
+    "NOx_GT": {
+        "type": "Numeric"
+    },
+    "PT08.S3(NOx)": {
+        "type": "Numeric"
+    },
+    "NO2(GT)": {
+        "type": "Numeric"
+    },
+    "PT08.S4(NO2)": {
+        "type": "Numeric"
+    },
+    "PT08.S5(O3)": {
+        "type": "Numeric"
+    },
+    "T": {
+        "type": "Categorical"
+    },
+    "RH": {
+        "type": "Numeric"
+    },
+    "FakeColumn": {
+        "type": "Categorical"
+    }
+}
