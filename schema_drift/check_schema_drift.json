@@ -1,11 +1,11 @@
 {
     "new_columns": [
-        "NOx_GT",
-        "FakeColumn"
+        "FakeColumn",
+        "NOx_GT"
     ],
     "missing_columns": [
-        "NOx(GT)",
-        "AH"
+        "AH",
+        "NOx(GT)"
     ],
     "type_changes": [
         {
