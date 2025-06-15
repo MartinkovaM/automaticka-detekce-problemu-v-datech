@@ -7,3 +7,6 @@ __pycache__/
 
 # VS Code konfigurace
 .vscode/
+
+# Schema drift s vizualizacemi - problém s vykreslením na GitHub
+schema_drift\schema_drift_detection_vizuals.ipynb
