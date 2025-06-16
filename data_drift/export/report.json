@@ -1,0 +1,1 @@
+{"metrics": [{"id": "15e89f895b482f9b84ba7274ed18a106", "metric_id": "DriftedColumnsCount(drift_share=0.5)", "value": {"count": 1.0, "share": 0.5}}, {"id": "9ada0c93c7da31a162c7d31bfbd41fad", "metric_id": "ValueDrift(column=abshum)", "value": 4.1834890128865584e-58}, {"id": "effcb22215e0783e0a062f57fe24c942", "metric_id": "ValueDrift(column=temp)", "value": 1.0}], "tests": []}
