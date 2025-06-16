@@ -1,0 +1,96 @@
+[
+    {
+        "missing_columns": [
+            "NMHC(GT)"
+        ],
+        "frequency": 6114
+    },
+    {
+        "missing_columns": [
+            "CO(GT)",
+            "NMHC(GT)",
+            "NO2(GT)",
+            "NOx(GT)"
+        ],
+        "frequency": 1195
+    },
+    {
+        "missing_columns": [],
+        "frequency": 827
+    },
+    {
+        "missing_columns": [
+            "CO(GT)",
+            "NMHC(GT)"
+        ],
+        "frequency": 428
+    },
+    {
+        "missing_columns": [
+            "NMHC(GT)",
+            "NO2(GT)",
+            "NOx(GT)"
+        ],
+        "frequency": 364
+    },
+    {
+        "missing_columns": [
+            "AH",
+            "C6H6(GT)",
+            "NMHC(GT)",
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "RH",
+            "T"
+        ],
+        "frequency": 291
+    },
+    {
+        "missing_columns": [
+            "NO2(GT)",
+            "NOx(GT)"
+        ],
+        "frequency": 36
+    },
+    {
+        "missing_columns": [
+            "AH",
+            "C6H6(GT)",
+            "CO(GT)",
+            "NMHC(GT)",
+            "NO2(GT)",
+            "NOx(GT)",
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "RH",
+            "T"
+        ],
+        "frequency": 31
+    },
+    {
+        "missing_columns": [
+            "AH",
+            "C6H6(GT)",
+            "PT08.S1(CO)",
+            "PT08.S2(NMHC)",
+            "PT08.S3(NOx)",
+            "PT08.S4(NO2)",
+            "PT08.S5(O3)",
+            "RH",
+            "T"
+        ],
+        "frequency": 26
+    },
+    {
+        "missing_columns": [
+            "CO(GT)"
+        ],
+        "frequency": 24
+    }
+]
