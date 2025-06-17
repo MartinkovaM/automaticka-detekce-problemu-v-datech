@@ -1,0 +1,27 @@
+{
+    "missing_type_output": [
+        "----- MCAR Test Results -----",
+        "Chi Square: 5478.1911",
+        "Degrees of Freedom: 88",
+        "P-value: 0.0",
+        "Conclusion: Reject MCAR at alpha=0.05 (p=0.000e+00).",
+        "Warning: Data does not follow multivariate normality (Henze-Zirkler Test Statistic (HZ)=12.4858, p-value=0.0000). ",
+        " Little's MCAR test may be unreliable.",
+        "Comment: None",
+        "",
+        "----- MAR vs. MNAR Tests (Feature-wise) -----",
+        "      CO(GT) | LRT =  142.718 | P-value = 0.000e+00 | Conclusion: Likely MNAR (reject MAR).",
+        " PT08.S1(CO) | LRT =   -0.906 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        "    NMHC(GT) | LRT = 3814.649 | P-value = 0.000e+00 | Conclusion: Likely MNAR (reject MAR).",
+        "    C6H6(GT) | LRT =   -0.003 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        "PT08.S2(NMHC) | LRT =   -1.544 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        "     NOx(GT) | LRT =   32.416 | P-value = 1.244e-08 | Conclusion: Likely MNAR (reject MAR).",
+        "PT08.S3(NOx) | LRT =   -0.534 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        "     NO2(GT) | LRT =  312.877 | P-value = 0.000e+00 | Conclusion: Likely MNAR (reject MAR).",
+        "PT08.S4(NO2) | LRT =   -1.173 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        " PT08.S5(O3) | LRT =   -0.397 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        "           T | LRT =    0.000 | P-value = 9.916e-01 | Conclusion: No strong evidence against MAR.",
+        "          RH | LRT =   -0.013 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR.",
+        "          AH | LRT =   -0.000 | P-value = 1.000e+00 | Conclusion: No strong evidence against MAR."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "mcar_output": [
+        "Little's MCAR Test Results:",
+        "  Chi-square  = 5478.1911",
+        "  df          = 88",
+        "  p-value     = 0.0000",
+        "  # of patterns = 14",
+        "Missing Data Summary:",
+        "                       CO(GT)  PT08.S1(CO)     NMHC(GT)    C6H6(GT)  \\",
+        "Number Missing   1683.000000   366.000000  8443.000000  366.000000   ",
+        "Percent Missing     0.179865     0.039115     0.902319    0.039115   ",
+        "",
+        "                 PT08.S2(NMHC)      NOx(GT)  PT08.S3(NOx)      NO2(GT)  \\",
+        "Number Missing      366.000000  1639.000000    366.000000  1642.000000   ",
+        "Percent Missing       0.039115     0.175163      0.039115     0.175484   ",
+        "",
+        "                 PT08.S4(NO2)  PT08.S5(O3)           T          RH          AH  ",
+        "Number Missing     366.000000   366.000000  366.000000  366.000000  366.000000  ",
+        "Percent Missing      0.039115     0.039115    0.039115    0.039115    0.039115  ",
+        "The data is probably not Missing Completely at Random (MCAR)."
+    ]
+}
