@@ -5,3 +5,5 @@ scipy
 evidently
 ydata-profiling
 ipywidgets
+mlxtend
+missingno
