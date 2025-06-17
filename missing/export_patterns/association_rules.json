@@ -12,6 +12,17 @@
     },
     {
         "antecedents":[
+            "CO(GT)"
+        ],
+        "consequents":[
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7284610814,
+        "lift":4.1511634219
+    },
+    {
+        "antecedents":[
             "NO2(GT)"
         ],
         "consequents":[
@@ -26,11 +37,11 @@
             "CO(GT)"
         ],
         "consequents":[
-            "NO2(GT)"
+            "NOx(GT)"
         ],
         "support":0.1310249011,
         "confidence":0.7284610814,
-        "lift":4.1511634219
+        "lift":4.1587616465
     },
     {
         "antecedents":[
@@ -41,17 +52,6 @@
         ],
         "support":0.1310249011,
         "confidence":0.7480170836,
-        "lift":4.1587616465
-    },
-    {
-        "antecedents":[
-            "CO(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7284610814,
         "lift":4.1587616465
     },
     {
@@ -100,8 +100,20 @@
     },
     {
         "antecedents":[
-            "NO2(GT)",
-            "NMHC(GT)"
+            "NMHC(GT)",
+            "CO(GT)"
+        ],
+        "consequents":[
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7389993972,
+        "lift":4.2112164189
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
+            "NO2(GT)"
         ],
         "consequents":[
             "CO(GT)"
@@ -112,8 +124,8 @@
     },
     {
         "antecedents":[
-            "NO2(GT)",
-            "CO(GT)"
+            "CO(GT)",
+            "NO2(GT)"
         ],
         "consequents":[
             "NMHC(GT)"
@@ -124,35 +136,11 @@
     },
     {
         "antecedents":[
-            "CO(GT)",
-            "NMHC(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7389993972,
-        "lift":4.2112164189
-    },
-    {
-        "antecedents":[
-            "NO2(GT)"
-        ],
-        "consequents":[
-            "CO(GT)",
-            "NMHC(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7466504263,
-        "lift":4.2112164189
-    },
-    {
-        "antecedents":[
             "CO(GT)"
         ],
         "consequents":[
-            "NO2(GT)",
-            "NMHC(GT)"
+            "NMHC(GT)",
+            "NO2(GT)"
         ],
         "support":0.1310249011,
         "confidence":0.7284610814,
@@ -160,8 +148,32 @@
     },
     {
         "antecedents":[
-            "NOx(GT)",
-            "NMHC(GT)"
+            "NO2(GT)"
+        ],
+        "consequents":[
+            "NMHC(GT)",
+            "CO(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7466504263,
+        "lift":4.2112164189
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
+            "CO(GT)"
+        ],
+        "consequents":[
+            "NOx(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7389993972,
+        "lift":4.2189245637
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
+            "NOx(GT)"
         ],
         "consequents":[
             "CO(GT)"
@@ -172,8 +184,8 @@
     },
     {
         "antecedents":[
-            "NOx(GT)",
-            "CO(GT)"
+            "CO(GT)",
+            "NOx(GT)"
         ],
         "consequents":[
             "NMHC(GT)"
@@ -184,35 +196,11 @@
     },
     {
         "antecedents":[
-            "CO(GT)",
-            "NMHC(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7389993972,
-        "lift":4.2189245637
-    },
-    {
-        "antecedents":[
-            "NOx(GT)"
-        ],
-        "consequents":[
-            "CO(GT)",
-            "NMHC(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7480170836,
-        "lift":4.2189245637
-    },
-    {
-        "antecedents":[
             "CO(GT)"
         ],
         "consequents":[
-            "NOx(GT)",
-            "NMHC(GT)"
+            "NMHC(GT)",
+            "NOx(GT)"
         ],
         "support":0.1310249011,
         "confidence":0.7284610814,
@@ -220,6 +208,42 @@
     },
     {
         "antecedents":[
+            "NOx(GT)"
+        ],
+        "consequents":[
+            "NMHC(GT)",
+            "CO(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7480170836,
+        "lift":4.2189245637
+    },
+    {
+        "antecedents":[
+            "CO(GT)",
+            "NOx(GT)"
+        ],
+        "consequents":[
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":1.0,
+        "lift":5.6985383678
+    },
+    {
+        "antecedents":[
+            "CO(GT)",
+            "NO2(GT)"
+        ],
+        "consequents":[
+            "NOx(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":1.0,
+        "lift":5.7089688835
+    },
+    {
+        "antecedents":[
             "NOx(GT)",
             "NO2(GT)"
         ],
@@ -229,54 +253,6 @@
         "support":0.1310249011,
         "confidence":0.7480170836,
         "lift":4.1587616465
-    },
-    {
-        "antecedents":[
-            "NOx(GT)",
-            "CO(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":1.0,
-        "lift":5.6985383678
-    },
-    {
-        "antecedents":[
-            "NO2(GT)",
-            "CO(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":1.0,
-        "lift":5.7089688835
-    },
-    {
-        "antecedents":[
-            "NOx(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)",
-            "CO(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7480170836,
-        "lift":5.7089688835
-    },
-    {
-        "antecedents":[
-            "NO2(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)",
-            "CO(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7466504263,
-        "lift":5.6985383678
     },
     {
         "antecedents":[
@@ -289,6 +265,54 @@
         "support":0.1310249011,
         "confidence":0.7284610814,
         "lift":4.1587616465
+    },
+    {
+        "antecedents":[
+            "NOx(GT)"
+        ],
+        "consequents":[
+            "CO(GT)",
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7480170836,
+        "lift":5.7089688835
+    },
+    {
+        "antecedents":[
+            "NO2(GT)"
+        ],
+        "consequents":[
+            "CO(GT)",
+            "NOx(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7466504263,
+        "lift":5.6985383678
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
+            "NOx(GT)"
+        ],
+        "consequents":[
+            "NO2(GT)"
+        ],
+        "support":0.1712087207,
+        "confidence":1.0,
+        "lift":5.6985383678
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
+            "NO2(GT)"
+        ],
+        "consequents":[
+            "NOx(GT)"
+        ],
+        "support":0.1712087207,
+        "confidence":0.9981308411,
+        "lift":5.6982979136
     },
     {
         "antecedents":[
@@ -304,35 +328,11 @@
     },
     {
         "antecedents":[
-            "NOx(GT)",
-            "NMHC(GT)"
+            "NOx(GT)"
         ],
         "consequents":[
+            "NMHC(GT)",
             "NO2(GT)"
-        ],
-        "support":0.1712087207,
-        "confidence":1.0,
-        "lift":5.6985383678
-    },
-    {
-        "antecedents":[
-            "NO2(GT)",
-            "NMHC(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)"
-        ],
-        "support":0.1712087207,
-        "confidence":0.9981308411,
-        "lift":5.6982979136
-    },
-    {
-        "antecedents":[
-            "NOx(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)",
-            "NMHC(GT)"
         ],
         "support":0.1712087207,
         "confidence":0.9774252593,
@@ -343,8 +343,8 @@
             "NO2(GT)"
         ],
         "consequents":[
-            "NOx(GT)",
-            "NMHC(GT)"
+            "NMHC(GT)",
+            "NOx(GT)"
         ],
         "support":0.1712087207,
         "confidence":0.9756394641,
@@ -352,35 +352,22 @@
     },
     {
         "antecedents":[
-            "NOx(GT)",
-            "NO2(GT)",
-            "NMHC(GT)"
+            "NMHC(GT)",
+            "CO(GT)",
+            "NOx(GT)"
         ],
         "consequents":[
-            "CO(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7652933833,
-        "lift":4.2548129455
-    },
-    {
-        "antecedents":[
-            "NOx(GT)",
-            "NO2(GT)",
-            "CO(GT)"
-        ],
-        "consequents":[
-            "NMHC(GT)"
+            "NO2(GT)"
         ],
         "support":0.1310249011,
         "confidence":1.0,
-        "lift":1.1082553595
+        "lift":5.6985383678
     },
     {
         "antecedents":[
+            "NMHC(GT)",
             "CO(GT)",
-            "NO2(GT)",
-            "NMHC(GT)"
+            "NO2(GT)"
         ],
         "consequents":[
             "NOx(GT)"
@@ -391,86 +378,34 @@
     },
     {
         "antecedents":[
-            "NOx(GT)",
-            "CO(GT)",
-            "NMHC(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":1.0,
-        "lift":5.6985383678
-    },
-    {
-        "antecedents":[
+            "NMHC(GT)",
             "NOx(GT)",
             "NO2(GT)"
         ],
         "consequents":[
-            "CO(GT)",
-            "NMHC(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7480170836,
-        "lift":4.2189245637
-    },
-    {
-        "antecedents":[
-            "NO2(GT)",
-            "NMHC(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)",
-            "CO(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":0.7638629283,
-        "lift":5.8299065421
-    },
-    {
-        "antecedents":[
-            "NO2(GT)",
-            "CO(GT)"
-        ],
-        "consequents":[
-            "NOx(GT)",
-            "NMHC(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":1.0,
-        "lift":5.84082397
-    },
-    {
-        "antecedents":[
-            "NOx(GT)",
-            "NMHC(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)",
             "CO(GT)"
         ],
         "support":0.1310249011,
         "confidence":0.7652933833,
-        "lift":5.84082397
-    },
-    {
-        "antecedents":[
-            "NOx(GT)",
-            "CO(GT)"
-        ],
-        "consequents":[
-            "NO2(GT)",
-            "NMHC(GT)"
-        ],
-        "support":0.1310249011,
-        "confidence":1.0,
-        "lift":5.8299065421
+        "lift":4.2548129455
     },
     {
         "antecedents":[
             "CO(GT)",
+            "NOx(GT)",
+            "NO2(GT)"
+        ],
+        "consequents":[
             "NMHC(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":1.0,
+        "lift":1.1082553595
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
+            "CO(GT)"
         ],
         "consequents":[
             "NOx(GT)",
@@ -482,25 +417,90 @@
     },
     {
         "antecedents":[
+            "NMHC(GT)",
+            "NOx(GT)"
+        ],
+        "consequents":[
+            "CO(GT)",
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7652933833,
+        "lift":5.84082397
+    },
+    {
+        "antecedents":[
+            "NMHC(GT)",
             "NO2(GT)"
         ],
         "consequents":[
-            "NOx(GT)",
             "CO(GT)",
-            "NMHC(GT)"
+            "NOx(GT)"
         ],
         "support":0.1310249011,
-        "confidence":0.7466504263,
-        "lift":5.6985383678
+        "confidence":0.7638629283,
+        "lift":5.8299065421
+    },
+    {
+        "antecedents":[
+            "CO(GT)",
+            "NOx(GT)"
+        ],
+        "consequents":[
+            "NMHC(GT)",
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":1.0,
+        "lift":5.8299065421
+    },
+    {
+        "antecedents":[
+            "CO(GT)",
+            "NO2(GT)"
+        ],
+        "consequents":[
+            "NMHC(GT)",
+            "NOx(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":1.0,
+        "lift":5.84082397
+    },
+    {
+        "antecedents":[
+            "NOx(GT)",
+            "NO2(GT)"
+        ],
+        "consequents":[
+            "NMHC(GT)",
+            "CO(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7480170836,
+        "lift":4.2189245637
+    },
+    {
+        "antecedents":[
+            "CO(GT)"
+        ],
+        "consequents":[
+            "NMHC(GT)",
+            "NOx(GT)",
+            "NO2(GT)"
+        ],
+        "support":0.1310249011,
+        "confidence":0.7284610814,
+        "lift":4.2548129455
     },
     {
         "antecedents":[
             "NOx(GT)"
         ],
         "consequents":[
+            "NMHC(GT)",
             "CO(GT)",
-            "NO2(GT)",
-            "NMHC(GT)"
+            "NO2(GT)"
         ],
         "support":0.1310249011,
         "confidence":0.7480170836,
@@ -508,15 +508,15 @@
     },
     {
         "antecedents":[
-            "CO(GT)"
+            "NO2(GT)"
         ],
         "consequents":[
-            "NOx(GT)",
-            "NO2(GT)",
-            "NMHC(GT)"
+            "NMHC(GT)",
+            "CO(GT)",
+            "NOx(GT)"
         ],
         "support":0.1310249011,
-        "confidence":0.7284610814,
-        "lift":4.2548129455
+        "confidence":0.7466504263,
+        "lift":5.6985383678
     }
 ]
