@@ -1,0 +1,13 @@
+{
+  "column": "col1",
+  "entity": "EMAIL_ADDRESS",
+  "rule": "valid_email_format",
+  "total": 8,
+  "invalid": 1,
+  "invalid_values": [
+    {
+      "index": 4,
+      "value": "lholubovi#gmail&com"
+    }
+  ]
+}

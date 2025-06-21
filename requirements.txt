@@ -9,3 +9,4 @@ mlxtend
 missingno
 XeroGraph
 bs4
+presidio-analyzer
