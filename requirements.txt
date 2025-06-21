@@ -8,3 +8,4 @@ ipywidgets
 mlxtend
 missingno
 XeroGraph
+bs4

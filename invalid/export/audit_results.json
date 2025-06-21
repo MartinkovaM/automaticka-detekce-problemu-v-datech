@@ -1,0 +1,60 @@
+[
+  {
+    "table": "PARTY_ADDRESS",
+    "column": "ADDR_COUNTRY",
+    "issue": "constant_value",
+    "description": "Sloupec má pouze jednu unikátní hodnotu",
+    "examples": "CZE"
+  },
+  {
+    "table": "PARTY_ADDRESS",
+    "column": "ADDR_NUM1",
+    "issue": "empty_column",
+    "description": "Sloupec nemá žádné hodnoty"
+  },
+  {
+    "table": "PARTY_ADDRESS",
+    "column": "ADDR_NUM2",
+    "issue": "empty_column",
+    "description": "Sloupec nemá žádné hodnoty"
+  },
+  {
+    "table": "PARTY_CONTACT",
+    "column": "CONT_PRIMARY_FLG",
+    "issue": "empty_column",
+    "description": "Sloupec nemá žádné hodnoty"
+  },
+  {
+    "table": "PART_PARTY",
+    "column": "PARTY_COUNTRY",
+    "issue": "constant_value",
+    "description": "Sloupec má pouze jednu unikátní hodnotu",
+    "examples": "CZE"
+  },
+  {
+    "table": "PART_PARTY",
+    "column": "PARTY_TITAFT",
+    "issue": "mostly_missing",
+    "description": "Sloupec má méně než 5 % vyplněných hodnot (11053 z 383131)"
+  },
+  {
+    "table": "PART_PARTY",
+    "column": "PARTY_OKEC",
+    "issue": "empty_column",
+    "description": "Sloupec nemá žádné hodnoty"
+  },
+  {
+    "table": "PROD_CONTRACT",
+    "column": "CNTR_PAY_FREQ",
+    "issue": "invalid_payment_frequency",
+    "description": "Podezřelá hodnota frekvence plateb: 3",
+    "pattern": "3"
+  },
+  {
+    "table": "PROD_CONTRACT",
+    "column": "CNTR_PAY_FREQ",
+    "issue": "invalid_payment_frequency",
+    "description": "Podezřelá hodnota frekvence plateb: 5",
+    "pattern": "5"
+  }
+]

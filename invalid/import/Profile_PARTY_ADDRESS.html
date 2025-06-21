@@ -1,0 +1,1674 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+    <head>
+    
+    	<meta charset="UTF-8">
+    
+    	<link rel = 'stylesheet' href='main.css' type = 'text/css'/>
+    
+    </head>
+
+	<body>
+
+		<h1>Profiling results for PARTY_ADDRESS</h1>
+		
+		<h2>Descriptive statistics</h2>
+
+		<table border=1 width='100%'>
+
+			<tr>
+
+				
+
+					<th>COLUMN_NAME</th>
+
+				
+
+					<th>IS_NULLABLE</th>
+
+				
+
+					<th>COLUMN_TYPE</th>
+
+				
+
+					<th>COLLATION_NAME</th>
+
+				
+
+					<th>Empirical Data Type</th>
+
+				
+
+					<th>Number of Not-nulls</th>
+
+				
+
+					<th>% of Not-nulls</th>
+
+				
+
+					<th>Number of Unique Values</th>
+
+				
+
+					<th>% of Unique Values</th>
+
+				
+
+					<th>Min Value</th>
+
+				
+
+					<th>Max Value</th>
+
+				
+
+					<th>Min Value Length</th>
+
+				
+
+					<th>Max Value Length</th>
+
+				
+
+					<th>Examples of Values</th>
+
+				
+
+					<th>Pattern Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td>
+					ADDR_ID
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					ID
+				</td>
+				
+				<td>
+					955217
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					955217
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_ID
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					OtherNum
+				</td>
+				
+				<td>
+					955217
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					382210
+				</td>
+				
+				<td>
+					40.01
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					99999
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					222494, 308376, 51258, 219170, 114446
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_TYPE
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					varchar(1)
+				</td>
+				
+				<td>
+					utf8mb4_0900_ai_ci
+				</td>
+				
+				<td>
+					Category
+				</td>
+				
+				<td>
+					955217
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					[('O', 40.01), ('P', 40.01), ('C', 19.97)]
+				</td>
+				
+				<td>
+					[('A', 100.0)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_COUNTRY
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					varchar(3)
+				</td>
+				
+				<td>
+					utf8mb4_0900_ai_ci
+				</td>
+				
+				<td>
+					Constant
+				</td>
+				
+				<td>
+					955217
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					CZE
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_CITY
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(250)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					954251
+				</td>
+				
+				<td>
+					99.9
+				</td>
+				
+				<td>
+					19670
+				</td>
+				
+				<td>
+					2.06
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					52
+				</td>
+				
+				<td>
+					[('Jihlava', 0.28), ('Most', 0.16), ('Zlín', 0.16), ('Chomutov', 0.15), ('Nová Ves', 0.15), ('Prostějov', 0.15), ('Blansko', 0.14), ('Brno - Židenice', 0.14), ('Staré Město', 0.13), ('Kroměříž', 0.12)]
+				</td>
+				
+				<td>
+					[('AAAAAAA', 10.64), ('AAAAAAAA', 9.5), ('AAAAAA', 9.12), ('AAAAAAAAA', 6.41), ('AAAAA', 4.94), ('AAAAAAAAAA', 3.19), ('AAAA', 1.75), ('AAAAAAAAAAA', 1.47), ('*AAAAAA', 1.1), ('*AAAA', 0.88)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_STREET
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(100)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					955217
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					78989
+				</td>
+				
+				<td>
+					8.27
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					48
+				</td>
+				
+				<td>
+					[('1', 0.67), ('2', 0.63), ('3', 0.61), ('4', 0.57), ('5', 0.57), ('6', 0.57), ('7', 0.55), ('10', 0.54), ('8', 0.54), ('12', 0.53)]
+				</td>
+				
+				<td>
+					[('99', 26.58), ('999', 18.47), ('9', 5.23), ('AAAAAAAA#999', 2.63), ('AAAAAAAAA#999', 2.12), ('AAAAAAAAAA#999', 1.71), ('AAAAAAA#999', 1.7), ('AAAAAA#999', 1.5), ('9999', 0.96), ('AAAAAAAA#999*99', 0.8)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_NUM1
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(10)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Blank
+				</td>
+				
+				<td>
+					0
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					inf
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_NUM2
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(10)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Blank
+				</td>
+				
+				<td>
+					0
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					inf
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					ADDR_ZIP
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(5)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					954259
+				</td>
+				
+				<td>
+					99.9
+				</td>
+				
+				<td>
+					3457
+				</td>
+				
+				<td>
+					0.36
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					5
+				</td>
+				
+				<td>
+					5
+				</td>
+				
+				<td>
+					[('99999', 0.49), ('77900', 0.47), ('58601', 0.46), ('28002', 0.39), ('40001', 0.39), ('44001', 0.39), ('33901', 0.34), ('43801', 0.31), ('39701', 0.29), ('76001', 0.29)]
+				</td>
+				
+				<td>
+					[('99999', 97.91), ('999#9', 1.99), ('', 0.1)]
+				</td>
+				
+			</tr>
+			
+
+		</table>
+		
+		<h2>Missing Values Patterns</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>ADDR_ID</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>ADDR_TYPE</th>
+
+				
+
+					<th>ADDR_COUNTRY</th>
+
+				
+
+					<th>ADDR_CITY</th>
+
+				
+
+					<th>ADDR_STREET</th>
+
+				
+
+					<th>ADDR_NUM1</th>
+
+				
+
+					<th>ADDR_NUM2</th>
+
+				
+
+					<th>ADDR_ZIP</th>
+
+				
+
+					<th>Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					953293
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					958
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					966
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+		
+		<h2>Missing Values Rules</h2>
+		
+		<table border=1>
+		
+    		<tr>
+
+				
+
+					<th>Antecedent</th>
+
+				
+
+					<th>Consequent</th>
+
+				
+
+					<th>support</th>
+
+				
+
+					<th>confidence</th>
+
+				
+
+			</tr>
+
+			
+		
+		</table>
+		
+		<h2>Correlation Matrix</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>index</th>
+
+				
+
+					<th>ADDR_ID</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>ADDR_TYPE</th>
+
+				
+
+					<th>ADDR_COUNTRY</th>
+
+				
+
+					<th>ADDR_CITY</th>
+
+				
+
+					<th>ADDR_STREET</th>
+
+				
+
+					<th>ADDR_NUM1</th>
+
+				
+
+					<th>ADDR_NUM2</th>
+
+				
+
+					<th>ADDR_ZIP</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_TYPE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_COUNTRY
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_CITY
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0010081075645021567
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_STREET
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_NUM1
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_NUM2
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					ADDR_ZIP
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0010081075645021567
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+
+	</body>
+
+</html>

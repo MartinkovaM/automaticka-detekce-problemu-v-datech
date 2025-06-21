@@ -1,0 +1,10772 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+    <head>
+    
+    	<meta charset="UTF-8">
+    
+    	<link rel = 'stylesheet' href='main.css' type = 'text/css'/>
+    
+    </head>
+
+	<body>
+
+		<h1>Profiling results for PART_PARTY</h1>
+		
+		<h2>Descriptive statistics</h2>
+
+		<table border=1 width='100%'>
+
+			<tr>
+
+				
+
+					<th>COLUMN_NAME</th>
+
+				
+
+					<th>IS_NULLABLE</th>
+
+				
+
+					<th>COLUMN_TYPE</th>
+
+				
+
+					<th>COLLATION_NAME</th>
+
+				
+
+					<th>Empirical Data Type</th>
+
+				
+
+					<th>Number of Not-nulls</th>
+
+				
+
+					<th>% of Not-nulls</th>
+
+				
+
+					<th>Number of Unique Values</th>
+
+				
+
+					<th>% of Unique Values</th>
+
+				
+
+					<th>Min Value</th>
+
+				
+
+					<th>Max Value</th>
+
+				
+
+					<th>Min Value Length</th>
+
+				
+
+					<th>Max Value Length</th>
+
+				
+
+					<th>Examples of Values</th>
+
+				
+
+					<th>Pattern Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td>
+					PARTY_ID
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					ID
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_TYPE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(1)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Category
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					2
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					[('P', 68.85), ('C', 31.15)]
+				</td>
+				
+				<td>
+					[('A', 100.0)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_FNAME
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(45)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					10349
+				</td>
+				
+				<td>
+					2.7
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					43
+				</td>
+				
+				<td>
+					[('NA', 31.15), ('ADALBERT', 0.02), ('ADELAIDA', 0.02), ('ADELAJDA', 0.02), ('ADÉLA', 0.02), ('AHMAD', 0.02), ('AHMET', 0.02), ('AIDA', 0.02), ('AIGERIM', 0.02), ('ALBINA', 0.02)]
+				</td>
+				
+				<td>
+					[('AA', 31.46), ('AAAAA', 8.95), ('AAAAAA', 8.91), ('AAAAAAA', 7.27), ('AAAA', 5.4), ('AAAAAAAA', 5.0), ('AAAAAAAAA', 2.97), ('AAA', 2.04), ('AAA#AAAA', 1.48), ('AAAAAAAAAA', 1.32)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_LNAME
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(60)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					894
+				</td>
+				
+				<td>
+					0.23
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					2
+				</td>
+				
+				<td>
+					13
+				</td>
+				
+				<td>
+					[('NA', 31.15), ('BUREŠOVÁ', 0.18), ('DAVIDOVÁ', 0.18), ('HOLEČKOVÁ', 0.18), ('HOLÁ', 0.18), ('HRDLIČKOVÁ', 0.18), ('HÁJKOVÁ', 0.18), ('KLIMEŠOVÁ', 0.18), ('MAŠKOVÁ', 0.18), ('PROKOPOVÁ', 0.18)]
+				</td>
+				
+				<td>
+					[('AA', 31.27), ('AAAAAA*', 3.7), ('AAAAAAAA*', 2.97), ('AAAAA', 2.93), ('AAAAAAA*', 2.69), ('AA*AAA*', 2.47), ('AAAA*', 2.33), ('AAA*AAA*', 2.13), ('AAAAAA', 2.04), ('AAAA*AAA*', 1.91)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_NAME
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					varchar(255)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					119348
+				</td>
+				
+				<td>
+					31.15
+				</td>
+				
+				<td>
+					56397
+				</td>
+				
+				<td>
+					47.25
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					2
+				</td>
+				
+				<td>
+					144
+				</td>
+				
+				<td>
+					[('', 68.85), ('Jiří Dvořák', 0.01), ('Jiří Novák', 0.01), ('Petr Novotný', 0.01), ('Petr Novák', 0.01), ('Sbor dobrovolných hasičů', 0.01), ('+MBS+ AUTOSLUŽBA MĚLNÍK s.r.o.', 0.0), ('001 dovolená Online', 0.0), ('01-Koksovna Svoboda Ostrava-Přívoz', 0.0), ('01-ZO OS PHGN Dolu Centrum Dolní Jiřetín', 0.0)]
+				</td>
+				
+				<td>
+					[('', 68.85), ('AAAAA#AAAAAAA', 0.88), ('AAAAA#AAAAAA', 0.83), ('AAAAA#AAAAA', 0.81), ('AAAAA#AAAAAAAA', 0.66), ('AAAAA#AAAAAAAAA', 0.53), ('AAAAAA#AAAAAAA', 0.52), ('AAAA#AAAAAAA', 0.51), ('AAAA#AAAAAA', 0.46), ('AAAAAA#AAAAA', 0.45)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_FORM
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					smallint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Continuous
+				</td>
+				
+				<td>
+					111101
+				</td>
+				
+				<td>
+					29.0
+				</td>
+				
+				<td>
+					44
+				</td>
+				
+				<td>
+					0.04
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+				<td>
+					9.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_CREGNUM
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(8)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					OtherNum
+				</td>
+				
+				<td>
+					119348
+				</td>
+				
+				<td>
+					31.15
+				</td>
+				
+				<td>
+					58527
+				</td>
+				
+				<td>
+					49.04
+				</td>
+				
+				<td>
+					00000507
+				</td>
+				
+				<td>
+					86859714
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					41796446
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_RC
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(10)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					268408
+				</td>
+				
+				<td>
+					70.06
+				</td>
+				
+				<td>
+					104852
+				</td>
+				
+				<td>
+					39.06
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					10
+				</td>
+				
+				<td>
+					[('', 29.94), (' ', 1.62), ('9999999999', 0.97), ('NEVYPLNENO', 0.97), ('NENI', 0.96), ('CIZINEC', 0.69), ('145102825', 0.0), ('145106667', 0.0), ('145319546', 0.0), ('145328526', 0.0)]
+				</td>
+				
+				<td>
+					[('9999999999', 47.98), ('', 29.94), ('999999999', 11.21), ('999999999#', 6.64), ('#', 1.62), ('AAAAAAAAAA', 0.97), ('AAAA', 0.96), ('AAAAAAA', 0.69)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_COUNTRY
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(3)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Constant
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					CZE
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_POFBIRTH
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(45)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Category
+				</td>
+				
+				<td>
+					263783
+				</td>
+				
+				<td>
+					68.85
+				</td>
+				
+				<td>
+					2
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					5
+				</td>
+				
+				<td>
+					5
+				</td>
+				
+				<td>
+					[('Praha', 68.85), ('', 31.15)]
+				</td>
+				
+				<td>
+					[('AAAAA', 68.85), ('', 31.15)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_AGE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					int
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Continuous
+				</td>
+				
+				<td>
+					261101
+				</td>
+				
+				<td>
+					68.15
+				</td>
+				
+				<td>
+					85
+				</td>
+				
+				<td>
+					0.03
+				</td>
+				
+				<td>
+					15.0
+				</td>
+				
+				<td>
+					98.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_GENDER
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(1)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Category
+				</td>
+				
+				<td>
+					258455
+				</td>
+				
+				<td>
+					67.46
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					[('F', 39.39), ('', 32.54), ('M', 28.07)]
+				</td>
+				
+				<td>
+					[('A', 67.46), ('', 32.54)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_DOFBIRTH
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					date
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Date
+				</td>
+				
+				<td>
+					261128
+				</td>
+				
+				<td>
+					68.16
+				</td>
+				
+				<td>
+					24051
+				</td>
+				
+				<td>
+					9.21
+				</td>
+				
+				<td>
+					1914-01-02
+				</td>
+				
+				<td>
+					2010-12-28
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1979-02-07, 2010-04-11, 2010-12-10, 1977-01-28
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_TITBEF
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(10)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					43961
+				</td>
+				
+				<td>
+					11.47
+				</td>
+				
+				<td>
+					20
+				</td>
+				
+				<td>
+					0.05
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					10
+				</td>
+				
+				<td>
+					10
+				</td>
+				
+				<td>
+					[('', 88.53), ('MuDr      ', 1.17), ('Ing       ', 0.62), ('MUDr      ', 0.6), ('PaeD      ', 0.59), ('prof      ', 0.59), ('Mgr       ', 0.58), ('Mgra      ', 0.58), ('PhDr      ', 0.58), ('Bc.       ', 0.57)]
+				</td>
+				
+				<td>
+					[('', 88.53), ('AAAA######', 6.35), ('AA*#######', 1.69), ('AAA*######', 1.67), ('AAA#######', 1.2), ('AA########', 0.56)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_TITAFT
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(10)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					11053
+				</td>
+				
+				<td>
+					2.88
+				</td>
+				
+				<td>
+					6
+				</td>
+				
+				<td>
+					0.05
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					10
+				</td>
+				
+				<td>
+					10
+				</td>
+				
+				<td>
+					[('', 97.12), ('MBA       ', 0.6), ('CsC       ', 0.59), ('PhD       ', 0.57), ('Csc       ', 0.56), ('DrS       ', 0.56)]
+				</td>
+				
+				<td>
+					[('', 97.12), ('AAA#######', 2.88)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_ESA95
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					int
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Continuous
+				</td>
+				
+				<td>
+					119348
+				</td>
+				
+				<td>
+					31.15
+				</td>
+				
+				<td>
+					27
+				</td>
+				
+				<td>
+					0.02
+				</td>
+				
+				<td>
+					11001.0
+				</td>
+				
+				<td>
+					49626621.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_OKEC
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(4)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Blank
+				</td>
+				
+				<td>
+					0
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					inf
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_SINCE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					date
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Date
+				</td>
+				
+				<td>
+					356255
+				</td>
+				
+				<td>
+					92.99
+				</td>
+				
+				<td>
+					1009
+				</td>
+				
+				<td>
+					0.28
+				</td>
+				
+				<td>
+					2010-01-01
+				</td>
+				
+				<td>
+					2012-12-28
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					2010-07-01, 2010-04-13, 2012-04-04, 2010-10-19, 2010-02-11
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+
+		</table>
+		
+		<h2>Missing Values Patterns</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>PARTY_TYPE</th>
+
+				
+
+					<th>PARTY_FNAME</th>
+
+				
+
+					<th>PARTY_LNAME</th>
+
+				
+
+					<th>PARTY_NAME</th>
+
+				
+
+					<th>PARTY_FORM</th>
+
+				
+
+					<th>PARTY_CREGNUM</th>
+
+				
+
+					<th>PARTY_RC</th>
+
+				
+
+					<th>PARTY_COUNTRY</th>
+
+				
+
+					<th>PARTY_POFBIRTH</th>
+
+				
+
+					<th>PARTY_AGE</th>
+
+				
+
+					<th>PARTY_GENDER</th>
+
+				
+
+					<th>PARTY_DOFBIRTH</th>
+
+				
+
+					<th>PARTY_TITBEF</th>
+
+				
+
+					<th>PARTY_TITAFT</th>
+
+				
+
+					<th>PARTY_ESA95</th>
+
+				
+
+					<th>PARTY_OKEC</th>
+
+				
+
+					<th>PARTY_SINCE</th>
+
+				
+
+					<th>Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					3977
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					308
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					99205
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					7611
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					312
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					28
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					7361
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					546
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					1996
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					141
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					37345
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					2766
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					7914
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					565
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					188397
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					14139
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					13
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					355
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					30
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					88
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					6
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					1920
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					158
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					34
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					8
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					746
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					65
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					163
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					15
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					3895
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					290
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					7
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					3
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					36
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					4
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					23
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					385
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					34
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					71
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					10
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					1917
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					148
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					6
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					26
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					4
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					54
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+		
+		<h2>Missing Values Rules</h2>
+		
+		<table border=1>
+		
+    		<tr>
+
+				
+
+					<th>Antecedent</th>
+
+				
+
+					<th>Consequent</th>
+
+				
+
+					<th>support</th>
+
+				
+
+					<th>confidence</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td>
+					['PARTY_CREGNUM']
+				</td>
+				
+				<td>
+					['PARTY_ESA95', 'PARTY_OKEC', 'PARTY_NAME', 'PARTY_FORM']
+				</td>
+				
+				<td>
+					0.6884929697675207
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_ESA95']
+				</td>
+				
+				<td>
+					['PARTY_CREGNUM', 'PARTY_OKEC', 'PARTY_NAME', 'PARTY_FORM']
+				</td>
+				
+				<td>
+					0.6884929697675207
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_NAME']
+				</td>
+				
+				<td>
+					['PARTY_ESA95', 'PARTY_CREGNUM', 'PARTY_OKEC', 'PARTY_FORM']
+				</td>
+				
+				<td>
+					0.6884929697675207
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_POFBIRTH', 'PARTY_OKEC', 'PARTY_AGE', 'PARTY_TITAFT']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_TITBEF', 'PARTY_POFBIRTH', 'PARTY_GENDER', 'PARTY_AGE', 'PARTY_DOFBIRTH']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_POFBIRTH', 'PARTY_TITAFT', 'PARTY_GENDER', 'PARTY_AGE', 'PARTY_DOFBIRTH']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_POFBIRTH', 'PARTY_GENDER', 'PARTY_OKEC', 'PARTY_AGE', 'PARTY_DOFBIRTH']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_POFBIRTH', 'PARTY_TITAFT', 'PARTY_GENDER', 'PARTY_OKEC', 'PARTY_AGE']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_DOFBIRTH', 'PARTY_POFBIRTH', 'PARTY_TITAFT', 'PARTY_AGE', 'PARTY_TITBEF']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_POFBIRTH', 'PARTY_OKEC', 'PARTY_TITBEF', 'PARTY_DOFBIRTH']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					['PARTY_RC']
+				</td>
+				
+				<td>
+					['PARTY_TITBEF', 'PARTY_POFBIRTH', 'PARTY_GENDER', 'PARTY_TITAFT', 'PARTY_OKEC', 'PARTY_AGE', 'PARTY_DOFBIRTH']
+				</td>
+				
+				<td>
+					0.2994354411415417
+				</td>
+				
+				<td>
+					1.0
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+		
+		<h2>Correlation Matrix</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>index</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>PARTY_TYPE</th>
+
+				
+
+					<th>PARTY_FNAME</th>
+
+				
+
+					<th>PARTY_LNAME</th>
+
+				
+
+					<th>PARTY_NAME</th>
+
+				
+
+					<th>PARTY_FORM</th>
+
+				
+
+					<th>PARTY_CREGNUM</th>
+
+				
+
+					<th>PARTY_RC</th>
+
+				
+
+					<th>PARTY_COUNTRY</th>
+
+				
+
+					<th>PARTY_POFBIRTH</th>
+
+				
+
+					<th>PARTY_AGE</th>
+
+				
+
+					<th>PARTY_GENDER</th>
+
+				
+
+					<th>PARTY_DOFBIRTH</th>
+
+				
+
+					<th>PARTY_TITBEF</th>
+
+				
+
+					<th>PARTY_TITAFT</th>
+
+				
+
+					<th>PARTY_ESA95</th>
+
+				
+
+					<th>PARTY_OKEC</th>
+
+				
+
+					<th>PARTY_SINCE</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_TYPE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_FNAME
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_LNAME
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_NAME
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0026687808259562924
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_FORM
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9236986274267805
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.934806116101442
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9201351516551116
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.934957886930583
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.23007829427468027
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.1101472534034665
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.950093642398821
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.002825458545188636
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_CREGNUM
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0026687808259562924
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_RC
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9236986274267805
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9563095252688851
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9413010836231345
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9564647873034342
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.23537080104926109
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.1126809782232592
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.002440461578995568
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_COUNTRY
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_POFBIRTH
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0026687808259563107
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_AGE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.934806116101442
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9563095252688851
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9529663184024441
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9683072019242996
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.238161285921876
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.11428118751003326
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.002781400617020398
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_GENDER
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9201351516551116
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9413010836231345
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9529663184024441
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.953007972440216
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.2349114050031378
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.11221929341622829
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0028614790393343514
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_DOFBIRTH
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.934957886930583
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9564647873034342
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.9683072019242996
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.953007972440216
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.23882402131954056
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.1140944926520515
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.002976670221839919
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_TITBEF
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.23007829427468027
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.23537080104926109
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.238161285921876
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.2349114050031378
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.23882402131954056
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.046420031109398456
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0012117905782558329
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_TITAFT
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.1101472534034665
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.1126809782232592
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.11428118751003326
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.11221929341622829
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.1140944926520515
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.046420031109398456
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0017919590012779154
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_ESA95
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					0.950093642398821
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9719487115866556
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-1.0
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9839094531009649
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9684678547228434
+				
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					-0.9840691961284707
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.24216380786499708
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.11593304963431757
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0026687808259562924
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_OKEC
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_SINCE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0026687808259562924
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.002825458545188636
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0026687808259562924
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.002440461578995568
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0026687808259563107
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.002781400617020398
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0028614790393343514
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.002976670221839919
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0012117905782558329
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					0.0017919590012779154
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					-0.0026687808259562924
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+
+	</body>
+
+</html>

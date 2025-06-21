@@ -1,0 +1,773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+    <head>
+    
+    	<meta charset="UTF-8">
+    
+    	<link rel = 'stylesheet' href='main.css' type = 'text/css'/>
+    
+    </head>
+
+	<body>
+
+		<h1>Profiling results for PARTY_CONTACT</h1>
+		
+		<h2>Descriptive statistics</h2>
+
+		<table border=1 width='100%'>
+
+			<tr>
+
+				
+
+					<th>COLUMN_NAME</th>
+
+				
+
+					<th>IS_NULLABLE</th>
+
+				
+
+					<th>COLUMN_TYPE</th>
+
+				
+
+					<th>COLLATION_NAME</th>
+
+				
+
+					<th>Empirical Data Type</th>
+
+				
+
+					<th>Number of Not-nulls</th>
+
+				
+
+					<th>% of Not-nulls</th>
+
+				
+
+					<th>Number of Unique Values</th>
+
+				
+
+					<th>% of Unique Values</th>
+
+				
+
+					<th>Min Value</th>
+
+				
+
+					<th>Max Value</th>
+
+				
+
+					<th>Min Value Length</th>
+
+				
+
+					<th>Max Value Length</th>
+
+				
+
+					<th>Examples of Values</th>
+
+				
+
+					<th>Pattern Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td>
+					CONT_ID
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					ID
+				</td>
+				
+				<td>
+					529815
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					529815
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_ID
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					OtherNum
+				</td>
+				
+				<td>
+					529815
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					301662
+				</td>
+				
+				<td>
+					56.94
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					99999
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					173308, 130855, 254381, 233297, 287608
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CONT_TYPE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(1)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Category
+				</td>
+				
+				<td>
+					529815
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					2
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					[('M', 56.94), ('E', 43.06)]
+				</td>
+				
+				<td>
+					[('A', 100.0)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CONT_PRIMARY_FLG
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(1)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Blank
+				</td>
+				
+				<td>
+					0
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					inf
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CONT_VALUE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					varchar(255)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					529815
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					475647
+				</td>
+				
+				<td>
+					89.78
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					9
+				</td>
+				
+				<td>
+					42
+				</td>
+				
+				<td>
+					[('280080080', 4.86), ('-.adimek@volny.cz', 0.0), ('-.dufek@gmail.com', 0.0), ('-.jeribek@volny.cz', 0.0), ('-.kalina@seznam.cz', 0.0), ('-.musil@gmail.com', 0.0), ('-.stanek@gmail.cz', 0.0), ('-.suma@gmail.com', 0.0), ('-.suma@gmail.cz', 0.0), ('-.suma@seznam.cz', 0.0)]
+				</td>
+				
+				<td>
+					[('999999999', 51.41), ('9999999999', 5.53), ('AAAAAAAA*AAAAA*AA', 0.98), ('AAAAAAAA*AAAAA*AAA', 0.98), ('AAAAAA*AAAAA*AA', 0.74), ('AAAAAAAAA*AAAAA*AA', 0.74), ('AAAAAAAAA*AAAAA*AAA', 0.74), ('AAAAAA*AAAAA*AAA', 0.72), ('AAAAAAAAAA*AAAAA*AAA', 0.68), ('AAAAAAAAAA*AAAAA*AA', 0.67)]
+				</td>
+				
+			</tr>
+			
+
+		</table>
+		
+		<h2>Missing Values Patterns</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>CONT_ID</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>CONT_TYPE</th>
+
+				
+
+					<th>CONT_PRIMARY_FLG</th>
+
+				
+
+					<th>CONT_VALUE</th>
+
+				
+
+					<th>Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					529815
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+		
+		<h2>Missing Values Rules</h2>
+		
+		<table border=1>
+		
+    		<tr>
+
+				
+
+			</tr>
+
+			
+		
+		</table>
+		
+		<h2>Correlation Matrix</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>index</th>
+
+				
+
+					<th>CONT_ID</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>CONT_TYPE</th>
+
+				
+
+					<th>CONT_PRIMARY_FLG</th>
+
+				
+
+					<th>CONT_VALUE</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CONT_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CONT_TYPE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CONT_PRIMARY_FLG
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CONT_VALUE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+
+	</body>
+
+</html>

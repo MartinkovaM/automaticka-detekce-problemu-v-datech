@@ -1,0 +1,1172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+
+    <head>
+    
+    	<meta charset="UTF-8">
+    
+    	<link rel = 'stylesheet' href='main.css' type = 'text/css'/>
+    
+    </head>
+
+	<body>
+
+		<h1>Profiling results for PROD_CONTRACT</h1>
+		
+		<h2>Descriptive statistics</h2>
+
+		<table border=1 width='100%'>
+
+			<tr>
+
+				
+
+					<th>COLUMN_NAME</th>
+
+				
+
+					<th>IS_NULLABLE</th>
+
+				
+
+					<th>COLUMN_TYPE</th>
+
+				
+
+					<th>COLLATION_NAME</th>
+
+				
+
+					<th>Empirical Data Type</th>
+
+				
+
+					<th>Number of Not-nulls</th>
+
+				
+
+					<th>% of Not-nulls</th>
+
+				
+
+					<th>Number of Unique Values</th>
+
+				
+
+					<th>% of Unique Values</th>
+
+				
+
+					<th>Min Value</th>
+
+				
+
+					<th>Max Value</th>
+
+				
+
+					<th>Min Value Length</th>
+
+				
+
+					<th>Max Value Length</th>
+
+				
+
+					<th>Examples of Values</th>
+
+				
+
+					<th>Pattern Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td>
+					CNTR_ID
+				</td>
+				
+				<td>
+					NO
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					ID
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PARTY_ID
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					bigint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					OtherNum
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					383131
+				</td>
+				
+				<td>
+					40.61
+				</td>
+				
+				<td>
+					1
+				</td>
+				
+				<td>
+					99999
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					25356, 66674, 264351, 145041, 112657
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					PRODUCT_CODE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(3)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Nominal
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					21
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					[('PR1', 11.18), ('PR2', 11.12), ('PR3', 11.08), ('HA2', 5.7), ('HA3', 5.7), ('NE2', 5.69), ('NE3', 5.69), ('NE1', 5.67), ('HA1', 5.65), ('DO1', 3.63)]
+				</td>
+				
+				<td>
+					[('AA9', 100.0)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CNTR_VALIDFROM
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					date
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Date
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					1008
+				</td>
+				
+				<td>
+					0.11
+				</td>
+				
+				<td>
+					2010-01-01
+				</td>
+				
+				<td>
+					2012-12-28
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					2012-08-13, 2010-03-04, 2012-02-04, 2010-06-06, 2012-08-21
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CNTR_VALIDTO
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					date
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Date
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					6385
+				</td>
+				
+				<td>
+					0.68
+				</td>
+				
+				<td>
+					2012-01-01
+				</td>
+				
+				<td>
+					2999-12-31
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					2022-10-24, 2019-03-01, 2017-08-20, 2016-10-23, 2012-06-05
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CNTR_CANCTYPE
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					char(3)
+				</td>
+				
+				<td>
+					utf8_czech_ci
+				</td>
+				
+				<td>
+					Category
+				</td>
+				
+				<td>
+					241699
+				</td>
+				
+				<td>
+					25.62
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					3
+				</td>
+				
+				<td>
+					[('', 74.38), ('STK', 23.34), ('DSM', 2.27)]
+				</td>
+				
+				<td>
+					[('', 74.38), ('AAA', 25.62)]
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td>
+					CNTR_PAY_FREQ
+				</td>
+				
+				<td>
+					YES
+				</td>
+				
+				<td>
+					smallint
+				</td>
+				
+				<td>
+					None
+				</td>
+				
+				<td>
+					Ordinal
+				</td>
+				
+				<td>
+					943449
+				</td>
+				
+				<td>
+					100.0
+				</td>
+				
+				<td>
+					7
+				</td>
+				
+				<td>
+					0.0
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					
+				</td>
+				
+				<td>
+					{'0': 46074, '1': 191000, '12': 268988, '2': 252589, '3': 46883, '4': 93105, '5': 44810}
+				</td>
+				
+				<td>
+					
+				</td>
+				
+			</tr>
+			
+
+		</table>
+		
+		<h2>Missing Values Patterns</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>CNTR_ID</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>PRODUCT_CODE</th>
+
+				
+
+					<th>CNTR_VALIDFROM</th>
+
+				
+
+					<th>CNTR_VALIDTO</th>
+
+				
+
+					<th>CNTR_CANCTYPE</th>
+
+				
+
+					<th>CNTR_PAY_FREQ</th>
+
+				
+
+					<th>Frequency</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					241699
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 style="background-color:red"
+				 
+				 >
+					1
+				</td>
+				
+				<td 
+				 
+				 >
+					0
+				</td>
+				
+				<td 
+				 
+				 >
+					701750
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+		
+		<h2>Missing Values Rules</h2>
+		
+		<table border=1>
+		
+    		<tr>
+
+				
+
+			</tr>
+
+			
+		
+		</table>
+		
+		<h2>Correlation Matrix</h2>
+		
+		<table border=1 width='100%'>
+		
+    		<tr>
+
+				
+
+					<th>index</th>
+
+				
+
+					<th>CNTR_ID</th>
+
+				
+
+					<th>PARTY_ID</th>
+
+				
+
+					<th>PRODUCT_CODE</th>
+
+				
+
+					<th>CNTR_VALIDFROM</th>
+
+				
+
+					<th>CNTR_VALIDTO</th>
+
+				
+
+					<th>CNTR_CANCTYPE</th>
+
+				
+
+					<th>CNTR_PAY_FREQ</th>
+
+				
+
+			</tr>
+
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CNTR_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PARTY_ID
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					PRODUCT_CODE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CNTR_VALIDFROM
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CNTR_VALIDTO
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CNTR_CANCTYPE
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 style="background-color:green"
+				 
+				 >
+					1.0
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+			<tr>
+				
+				<td 
+				 
+				 >
+					CNTR_PAY_FREQ
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+				<td 
+				 
+				 >
+					nan
+				
+				</td>
+				
+			</tr>
+			
+		
+		</table>
+
+	</body>
+
+</html>
