@@ -1,0 +1,110 @@
+{
+  "CO(GT)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": 0.1,
+      "max": 11.9
+    }
+  },
+  "PT08.S1(CO)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 2040.0
+    }
+  },
+  "NMHC(GT)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": 7.0,
+      "max": 1189.0
+    }
+  },
+  "C6H6(GT)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": 0.1,
+      "max": 63.7
+    }
+  },
+  "PT08.S2(NMHC)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 2214.0
+    }
+  },
+  "NOx(GT)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": 2.0,
+      "max": 1479.0
+    }
+  },
+  "PT08.S3(NOx)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 2683.0
+    }
+  },
+  "NO2(GT)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": 2.0,
+      "max": 340.0
+    }
+  },
+  "PT08.S4(NO2)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 2775.0
+    }
+  },
+  "PT08.S5(O3)": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 2523.0
+    }
+  },
+  "T": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 44.6
+    }
+  },
+  "RH": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 88.7
+    }
+  },
+  "AH": {
+    "required": false,
+    "type": "float64",
+    "range": {
+      "min": -200.0,
+      "max": 2.231
+    }
+  },
+  "Datetime": {
+    "required": false,
+    "type": "datetime64[ns]"
+  }
+}

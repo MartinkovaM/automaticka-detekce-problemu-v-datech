@@ -1,0 +1,78 @@
+{
+  "rules": [
+    {
+      "name": "range_CO_GT",
+      "columns": ["CO(GT)"],
+      "type": "range",
+      "min": 0.0,
+      "max": 11.0,
+      "description": "Hodnota CO(GT) musí být v rozsahu 0 až 11 mg/m³."
+    },
+    {
+      "name": "range_NMHC_GT",
+      "columns": ["NMHC(GT)"],
+      "type": "range",
+      "min": 0,
+      "max": 1200,
+      "description": "Hodnota NMHC(GT) musí být v rozmezí 0 až 1200 µg/m³."
+    },
+    {
+      "name": "range_C6H6_GT",
+      "columns": ["C6H6(GT)"],
+      "type": "range",
+      "min": 0.0,
+      "max": 60.0,
+      "description": "Hodnota C6H6(GT) musí být v rozsahu 0 až 60 µg/m³."
+    },
+    {
+      "name": "range_NOx_GT",
+      "columns": ["NOx(GT)"],
+      "type": "range",
+      "min": 0,
+      "max": 1500,
+      "description": "Hodnota NOx(GT) musí být mezi 0 a 1500 ppb."
+    },
+    {
+      "name": "range_NO2_GT",
+      "columns": ["NO2(GT)"],
+      "type": "range",
+      "min": 0,
+      "max": 500,
+      "description": "Hodnota NO2(GT) musí být mezi 0 a 500 µg/m³."
+    },
+    {
+      "name": "required_CO_GT",
+      "columns": ["CO(GT)"],
+      "type": "not_null",
+      "description": "Hodnota CO(GT) nesmí být prázdná."
+    },
+    {
+      "name": "correlation_CO_NMHC",
+      "columns": ["CO(GT)", "NMHC(GT)"],
+      "type": "correlation_check",
+      "min_correlation": 0.85,
+      "description": "Mezi CO(GT) a NMHC(GT) musí být silná pozitivní korelace (≥ 0.85)."
+    },
+    {
+      "name": "correlation_C6H6_PT08S2",
+      "columns": ["C6H6(GT)", "PT08.S2(NMHC)"],
+      "type": "correlation_check",
+      "min_correlation": 0.95,
+      "description": "Hodnoty C6H6(GT) a PT08.S2(NMHC) by měly být velmi silně korelované (≥ 0.95)."
+    },
+    {
+      "name": "AH_consistency",
+      "columns": ["T", "RH", "AH"],
+      "type": "derived_value_check",
+      "expression": "abs(AH - 0.0023 * RH * exp(0.061 * T)) < 0.1",
+      "description": "Absolutní vlhkost AH by měla odpovídat teplotě T a relativní vlhkosti RH (s tolerancí ±0.1)."
+    },
+    {
+      "name": "sensor_alignment_CO_NMHC",
+      "columns": ["PT08.S1(CO)", "PT08.S2(NMHC)"],
+      "type": "correlation_check",
+      "min_correlation": 0.9,
+      "description": "Výstupy senzorů PT08.S1(CO) a PT08.S2(NMHC) musí být silně korelované (≥ 0.9)."
+    }
+  ]
+}
