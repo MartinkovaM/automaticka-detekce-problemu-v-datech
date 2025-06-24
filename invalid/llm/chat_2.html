@@ -1,0 +1,131 @@
+<html>
+  <head>
+    <title>ChatGPT Data Export</title>
+    <style>
+      body {
+        margin: 20px;
+      }
+      h4 {
+        font-family: sans-serif;
+        margin: 0;
+      }
+      #root {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .conversation {
+        border: 1px solid black;
+        padding: 20px;
+        background-color: #f3f3f3;
+      }
+      .message {
+        white-space: pre-wrap;
+        margin: 20px 0;
+      }
+      .author {
+        font-weight: bold;
+        margin-bottom: 4px;
+      }
+      .author::first-letter {
+        text-transform: uppercase;
+      }
+    </style>
+    <script>
+      var jsonData = [{"title": "SQL valida\u010dn\u00ed pravidla", "create_time": 1750794963.460635, "update_time": 1750794991.031439, "mapping": {"client-created-root": {"id": "client-created-root", "message": null, "parent": null, "children": ["323393f0-600b-4068-a280-6871265b222f"]}, "323393f0-600b-4068-a280-6871265b222f": {"id": "323393f0-600b-4068-a280-6871265b222f", "message": {"id": "323393f0-600b-4068-a280-6871265b222f", "author": {"role": "system", "name": null, "metadata": {}}, "create_time": null, "update_time": null, "content": {"content_type": "text", "parts": [""]}, "status": "finished_successfully", "end_turn": true, "weight": 0.0, "metadata": {"is_visually_hidden_from_conversation": true}, "recipient": "all", "channel": null}, "parent": "client-created-root", "children": ["e9b4d1ec-4588-47fc-86af-e2028c8611a6"]}, "e9b4d1ec-4588-47fc-86af-e2028c8611a6": {"id": "e9b4d1ec-4588-47fc-86af-e2028c8611a6", "message": {"id": "e9b4d1ec-4588-47fc-86af-e2028c8611a6", "author": {"role": "user", "name": null, "metadata": {}}, "create_time": 1750794962.978, "update_time": null, "content": {"content_type": "text", "parts": ["Na z\u00e1klad\u011b n\u00e1sleduj\u00edc\u00edho JSON souboru obsahuj\u00edc\u00edho sadu valida\u010dn\u00edch pravidel vytvo\u0159 odpov\u00eddaj\u00edc\u00ed pravidla ve form\u00e1tu SQL. V\u00fdstupem by m\u011bl b\u00fdt seznam SQL v\u00fdraz\u016f, kter\u00e9 lze p\u0159\u00edmo pou\u017e\u00edt pro kontrolu kvality dat."]}, "status": "finished_successfully", "end_turn": null, "weight": 1.0, "metadata": {"attachments": [{"id": "file-4CY9VYNmzBBPERgtDzqBAB", "size": 2336, "name": "applicable_validation_rules_air_quality.json", "mime_type": "application/json", "file_token_size": 877}], "selected_sources": [], "selected_github_repos": [], "serialization_metadata": {"custom_symbol_offsets": []}, "request_id": "954ec9466a4358b7-DFW", "message_source": null, "timestamp_": "absolute", "message_type": null}, "recipient": "all", "channel": null}, "parent": "323393f0-600b-4068-a280-6871265b222f", "children": ["604155db-e0e2-4315-beef-e5635c0a28cf"]}, "604155db-e0e2-4315-beef-e5635c0a28cf": {"id": "604155db-e0e2-4315-beef-e5635c0a28cf", "message": {"id": "604155db-e0e2-4315-beef-e5635c0a28cf", "author": {"role": "assistant", "name": null, "metadata": {}}, "create_time": 1750794975.32022, "update_time": null, "content": {"content_type": "text", "parts": [""]}, "status": "finished_successfully", "end_turn": null, "weight": 1.0, "metadata": {"message_type": null, "model_slug": "gpt-4o", "default_model_slug": "gpt-4o", "parent_id": "e9b4d1ec-4588-47fc-86af-e2028c8611a6", "request_id": "954ec9466a4358b7-DFW", "timestamp_": "absolute"}, "recipient": "all", "channel": null}, "parent": "e9b4d1ec-4588-47fc-86af-e2028c8611a6", "children": ["15949be1-1153-4863-8b87-9737186c3a16"]}, "15949be1-1153-4863-8b87-9737186c3a16": {"id": "15949be1-1153-4863-8b87-9737186c3a16", "message": {"id": "15949be1-1153-4863-8b87-9737186c3a16", "author": {"role": "tool", "name": "file_search", "metadata": {}}, "create_time": 1750794975.320357, "update_time": null, "content": {"content_type": "tether_browsing_display", "result": "", "summary": "", "assets": null, "tether_id": null}, "status": "finished_successfully", "end_turn": null, "weight": 0.0, "metadata": {"command": "spinner", "status": "running", "message_type": null, "model_slug": "gpt-4o", "default_model_slug": "gpt-4o", "parent_id": "604155db-e0e2-4315-beef-e5635c0a28cf", "request_id": "954ec9466a4358b7-DFW", "timestamp_": "absolute"}, "recipient": "all", "channel": null}, "parent": "604155db-e0e2-4315-beef-e5635c0a28cf", "children": ["07d1d3f5-71fe-4246-866c-c0fd73142127"]}, "07d1d3f5-71fe-4246-866c-c0fd73142127": {"id": "07d1d3f5-71fe-4246-866c-c0fd73142127", "message": {"id": "07d1d3f5-71fe-4246-866c-c0fd73142127", "author": {"role": "tool", "name": "file_search", "metadata": {}}, "create_time": 1750794975.320429, "update_time": null, "content": {"content_type": "tether_quote", "url": "file-4CY9VYNmzBBPERgtDzqBAB", "domain": "applicable_validation_rules_air_quality.json", "text": "{\n  &quot;rules&quot;: [\n    {\n      &quot;name&quot;: &quot;range_CO_GT&quot;,\n      &quot;columns&quot;: [&quot;CO(GT)&quot;],\n      &quot;type&quot;: &quot;range&quot;,\n      &quot;min&quot;: 0.0,\n      &quot;max&quot;: 11.0,\n      &quot;description&quot;: &quot;Hodnota CO(GT) mus\u00ed b\u00fdt v rozsahu 0 a\u017e 11 mg/m\u00b3.&quot;\n    },\n    {\n      &quot;name&quot;: &quot;range_NMHC_GT&quot;,\n      &quot;columns&quot;: [&quot;NMHC(GT)&quot;],\n      &quot;type&quot;: &quot;range&quot;,\n      &quot;min&quot;: 0,\n      &quot;max&quot;: 1200,\n      &quot;description&quot;: &quot;Hodnota NMHC(GT) mus\u00ed b\u00fdt v rozmez\u00ed 0 a\u017e 1200 \u00b5g/m\u00b3.&quot;\n    },\n    {\n      &quot;name&quot;: &quot;range_C6H6_GT&quot;,\n      &quot;columns&quot;: [&quot;C6H6(GT)&quot;],\n      &quot;type&quot;: &quot;range&quot;,\n      &quot;min&quot;: 0.0,\n      &quot;max&quot;: 60.0,\n      &quot;description&quot;: &quot;Hodnota C6H6(GT) mus\u00ed b\u00fdt v rozsahu 0 a\u017e 60 \u00b5g/m\u00b3.&quot;\n    },\n    {\n      &quot;name&quot;: &quot;range_NOx_GT&quot;,\n      &quot;columns&quot;: [&quot;NOx(GT)&quot;],\n      &quot;type&quot;: &quot;range&quot;,\n      &quot;min&quot;: 0,\n      &quot;max&quot;: 1500,\n      &quot;description&quot;: &quot;Hodnota NOx(GT) mus\u00ed b\u00fdt mezi 0 a 1500 ppb.&quot;\n    },\n    {\n      &quot;name&quot;: &quot;range_NO2_GT&quot;,\n      &quot;columns&quot;: [&quot;NO2(GT)&quot;],\n      &quot;type&quot;: &quot;range&quot;,\n      &quot;min&quot;: 0,\n      &quot;max&quot;: 500,\n      &quot;description&quot;: &quot;Hodnota NO2(GT) mus\u00ed b\u00fdt mezi 0 a 500 \u00b5g/m\u00b3.&quot;\n    },\n    {\n      &quot;name&quot;: &quot;required_CO_GT&quot;,\n      &quot;columns&quot;: [&quot;CO(GT)&quot;],\n      &quot;type&quot;: &quot;not_null&quot;,\n      &quot;description&quot;: &quot;Hodnota CO(GT) nesm\u00ed b\u00fdt pr\u00e1zdn\u00e1.&quot;\n    },\n    {\n      &quot;name&quot;: &quot;correlation_CO_NMHC&quot;,\n      &quot;columns&quot;: [&quot;CO(GT)&quot;, &quot;NMHC(GT)&quot;],\n      &quot;type&quot;: &quot;correlation_check&quot;,\n      &quot;min_correlation&quot;: 0.85,\n      &quot;description&quot;: &quot;Mezi CO(GT) a NMHC(GT) mus\u00ed b\u00fdt siln\u00e1 pozitivn\u00ed korelace (\u2265 0.85).&quot;\n    },\n    {\n      &quot;name&quot;: &quot;correlation_C6H6_PT08S2&quot;,\n      &quot;columns&quot;: [&quot;C6H6(GT)&quot;, &quot;PT08.S2(NMHC)&quot;],\n      &quot;type&quot;: &quot;correlation_check&quot;,\n      &quot;min_correlation&quot;: 0.95,\n      &quot;description&quot;: &quot;Hodnoty C6H6(GT) a PT08.S2(NMHC) by m\u011bly b\u00fdt velmi siln\u011b korelovan\u00e9 (\u2265 0.95).&quot;\n    },\n    {\n      &quot;name&quot;: &quot;AH_consistency&quot;,\n      &quot;columns&quot;: [&quot;T&quot;, &quot;RH&quot;, &quot;AH&quot;],\n      &quot;type&quot;: &quot;derived_value_check&quot;,\n      &quot;expression&quot;: &quot;abs(AH - 0.0023 * RH * exp(0.061 * T)) &lt; 0.1&quot;,\n      &quot;description&quot;: &quot;Absolutn\u00ed vlhkost AH by m\u011bla odpov\u00eddat teplot\u011b T a relativn\u00ed vlhkosti RH (s toleranc\u00ed \u00b10.1).&quot;\n    },\n    {\n      &quot;name&quot;: &quot;sensor_alignment_CO_NMHC&quot;,\n      &quot;columns&quot;: [&quot;PT08.S1(CO)&quot;, &quot;PT08.S2(NMHC)&quot;],\n      &quot;type&quot;: &quot;correlation_check&quot;,\n      &quot;min_correlation&quot;: 0.9,\n      &quot;description&quot;: &quot;V\u00fdstupy senzor\u016f PT08.S1(CO) a PT08.S2(NMHC) mus\u00ed b\u00fdt siln\u011b korelovan\u00e9 (\u2265 0.9).&quot;\n    }\n  ]\n}", "title": "applicable_validation_rules_air_quality.json", "tether_id": null}, "status": "finished_successfully", "end_turn": null, "weight": 1.0, "metadata": {"command": "context_stuff", "is_visually_hidden_from_conversation": false, "message_type": null, "model_slug": "gpt-4o", "default_model_slug": "gpt-4o", "parent_id": "15949be1-1153-4863-8b87-9737186c3a16", "request_id": "954ec9466a4358b7-DFW", "timestamp_": "absolute"}, "recipient": "all", "channel": null}, "parent": "15949be1-1153-4863-8b87-9737186c3a16", "children": ["211478fd-3535-45c0-a17a-077d3a58b057"]}, "211478fd-3535-45c0-a17a-077d3a58b057": {"id": "211478fd-3535-45c0-a17a-077d3a58b057", "message": {"id": "211478fd-3535-45c0-a17a-077d3a58b057", "author": {"role": "tool", "name": "file_search", "metadata": {}}, "create_time": 1750794975.320489, "update_time": null, "content": {"content_type": "text", "parts": ["All the files uploaded by the user have been fully loaded. Searching won&#x27;t provide additional information."]}, "status": "finished_successfully", "end_turn": null, "weight": 1.0, "metadata": {"is_visually_hidden_from_conversation": false, "message_type": null, "model_slug": "gpt-4o", "default_model_slug": "gpt-4o", "parent_id": "07d1d3f5-71fe-4246-866c-c0fd73142127", "request_id": "954ec9466a4358b7-DFW", "timestamp_": "absolute"}, "recipient": "all", "channel": null}, "parent": "07d1d3f5-71fe-4246-866c-c0fd73142127", "children": ["4e66b733-4f61-457c-9d63-4de6ec20c8cb"]}, "4e66b733-4f61-457c-9d63-4de6ec20c8cb": {"id": "4e66b733-4f61-457c-9d63-4de6ec20c8cb", "message": {"id": "4e66b733-4f61-457c-9d63-4de6ec20c8cb", "author": {"role": "assistant", "name": null, "metadata": {}}, "create_time": 1750794963.542947, "update_time": null, "content": {"content_type": "text", "parts": ["Na z\u00e1klad\u011b zadan\u00e9ho JSON souboru s valida\u010dn\u00edmi pravidly zde je sada odpov\u00eddaj\u00edc\u00edch SQL v\u00fdraz\u016f, kter\u00e9 lze pou\u017e\u00edt pro kontrolu kvality dat v datab\u00e1zi:\n\n---\n\n### \ud83d\udca1 **Rozsahov\u00e9 kontroly (Range Checks)**\n\n```sql\n-- Hodnota CO(GT) mus\u00ed b\u00fdt v rozsahu 0 a\u017e 11 mg/m\u00b3\n&quot;CO(GT) BETWEEN 0.0 AND 11.0&quot;\n\n-- Hodnota NMHC(GT) mus\u00ed b\u00fdt v rozmez\u00ed 0 a\u017e 1200 \u00b5g/m\u00b3\n&quot;NMHC(GT) BETWEEN 0 AND 1200&quot;\n\n-- Hodnota C6H6(GT) mus\u00ed b\u00fdt v rozsahu 0 a\u017e 60 \u00b5g/m\u00b3\n&quot;C6H6(GT) BETWEEN 0.0 AND 60.0&quot;\n\n-- Hodnota NOx(GT) mus\u00ed b\u00fdt mezi 0 a 1500 ppb\n&quot;NOx(GT) BETWEEN 0 AND 1500&quot;\n\n-- Hodnota NO2(GT) mus\u00ed b\u00fdt mezi 0 a 500 \u00b5g/m\u00b3\n&quot;NO2(GT) BETWEEN 0 AND 500&quot;\n```\n\n---\n\n### \u2705 **Povinn\u00e1 hodnota (Not Null Check)**\n\n```sql\n-- Hodnota CO(GT) nesm\u00ed b\u00fdt pr\u00e1zdn\u00e1\n&quot;CO(GT) IS NOT NULL&quot;\n```\n\n---\n\n### \ud83d\udcc8 **Korela\u010dn\u00ed kontroly (pro analytick\u00e9 \u00fa\u010dely, nelze p\u0159\u00edmo jako SQL WHERE bez p\u0159edv\u00fdpo\u010dtu korelace)**\n\n&gt; Tyto kontroly je t\u0159eba prov\u00e9st analyticky (nap\u0159. pomoc\u00ed `CORR()` v PostgreSQL nebo Pearsonovy korelace ve skriptech), nikoliv jako jednoduch\u00e9 SQL filtry:\n\n```sql\n-- Pearsonova korelace mezi CO(GT) a NMHC(GT) mus\u00ed b\u00fdt &gt;= 0.85\nSELECT CORR(&quot;CO(GT)&quot;, &quot;NMHC(GT)&quot;) FROM tabulka;\n\n-- Korelace mezi C6H6(GT) a PT08.S2(NMHC) mus\u00ed b\u00fdt \u2265 0.95\nSELECT CORR(&quot;C6H6(GT)&quot;, &quot;PT08.S2(NMHC)&quot;) FROM tabulka;\n\n-- Korelace mezi PT08.S1(CO) a PT08.S2(NMHC) mus\u00ed b\u00fdt \u2265 0.9\nSELECT CORR(&quot;PT08.S1(CO)&quot;, &quot;PT08.S2(NMHC)&quot;) FROM tabulka;\n```\n\n---\n\n### \ud83e\uddee **Odvozen\u00e1 hodnota (Derived Value Check)**\n\n```sql\n-- Absolutn\u00ed vlhkost AH by m\u011bla odpov\u00eddat teplot\u011b T a relativn\u00ed vlhkosti RH (\u00b10.1)\n&quot;ABS(AH - 0.0023 * RH * EXP(0.061 * T)) &lt; 0.1&quot;\n```\n\n---\n\n### \u2733\ufe0f **Kompletn\u00ed seznam pro WHERE nebo CASE validace:**\n\nNap\u0159\u00edklad ve form\u011b v\u00fdpisu z\u00e1znam\u016f s chybou:\n\n```sql\nSELECT *\nFROM tabulka\nWHERE NOT (\n    &quot;CO(GT)&quot; BETWEEN 0.0 AND 11.0 AND\n    &quot;NMHC(GT)&quot; BETWEEN 0 AND 1200 AND\n    &quot;C6H6(GT)&quot; BETWEEN 0.0 AND 60.0 AND\n    &quot;NOx(GT)&quot; BETWEEN 0 AND 1500 AND\n    &quot;NO2(GT)&quot; BETWEEN 0 AND 500 AND\n    &quot;CO(GT)&quot; IS NOT NULL AND\n    ABS(AH - 0.0023 * RH * EXP(0.061 * T)) &lt; 0.1\n);\n```\n\nPokud chce\u0161, mohu p\u0159ipravit i \u0161ablonu pro generov\u00e1n\u00ed v\u00fdstupn\u00ed tabulky s ozna\u010den\u00edm, kter\u00e1 pravidla byla poru\u0161ena. Sta\u010d\u00ed \u0159\u00edct."]}, "status": "finished_successfully", "end_turn": true, "weight": 1.0, "metadata": {"finish_details": {"type": "stop", "stop_tokens": [200002]}, "is_complete": true, "citations": [], "content_references": [], "message_type": null, "model_slug": "gpt-4o", "default_model_slug": "gpt-4o", "parent_id": "211478fd-3535-45c0-a17a-077d3a58b057", "request_id": "954ec9466a4358b7-DFW", "timestamp_": "absolute"}, "recipient": "all", "channel": null}, "parent": "211478fd-3535-45c0-a17a-077d3a58b057", "children": []}}, "moderation_results": [], "current_node": "4e66b733-4f61-457c-9d63-4de6ec20c8cb", "plugin_ids": null, "conversation_id": "685b02d3-1338-800d-8535-7692389996e5", "conversation_template_id": null, "gizmo_id": null, "gizmo_type": null, "is_archived": false, "is_starred": null, "safe_urls": [], "blocked_urls": [], "default_model_slug": "gpt-4o", "conversation_origin": null, "voice": null, "async_status": null, "disabled_tool_ids": [], "is_do_not_remember": false, "memory_scope": "global_enabled", "sugar_item_id": null, "id": "685b02d3-1338-800d-8535-7692389996e5"}]
+      var assetsJson = null
+
+
+      function getConversationMessages(conversation) {
+          var messages = [];
+          var currentNode = conversation.current_node;
+          while (currentNode != null) {
+              var node = conversation.mapping[currentNode];
+              if (
+                  node.message &&
+                  node.message.content &&
+                  node.message.content.parts &&
+                  node.message.content.parts.length > 0 &&
+                  (node.message.author.role !== "system"  || node.message.metadata.is_user_system_message)
+              ) {
+                  author = node.message.author.role;
+                  if (author === "assistant" || author === "tool") {
+                      author = "ChatGPT";
+                  } else if (author === "system" && node.message.metadata.is_user_system_message) {
+                      author = "Custom user info"
+                  }
+                  if (node.message.content.content_type == "text" || node.message.content.content_type == "multimodal_text") {
+                    var parts = [];
+                    for (var i = 0; i < node.message.content.parts.length; i++) {
+                      var part = node.message.content.parts[i];
+                      if (typeof part === "string" && part.length > 0) {
+                        parts.push({text: part});
+                      } else if (part.content_type == "audio_transcription") {
+                        parts.push({transcript: part.text});
+                      } else if (part.content_type == "audio_asset_pointer" || part.content_type == "image_asset_pointer" || part.content_type == "video_container_asset_pointer") {
+                        parts.push({asset: part});
+                      } else if (part.content_type == "real_time_user_audio_video_asset_pointer") {
+                        if (part.audio_asset_pointer) {
+                          parts.push({asset: part.audio_asset_pointer});
+                        }
+                        if (part.video_container_asset_pointer) {
+                          parts.push({asset: part.video_container_asset_pointer});
+                        }
+                        for (var j = 0; j < part.frames_asset_pointers.length; j++) {
+                          parts.push({asset: part.frames_asset_pointers[j]});
+                        }
+                      }
+                    }
+                    if (parts.length > 0) {
+                      messages.push({ author, parts: parts });
+                    }
+                  }
+              }
+              currentNode = node.parent;
+          }
+          return messages.reverse();
+      }
+
+      // on load, add messages to the root div
+      window.onload = function() {
+          var root = document.getElementById("root");
+          for (var i = 0; i < jsonData.length; i++) {
+              var conversation = jsonData[i];
+              var messages = getConversationMessages(conversation);
+              var div = document.createElement("div");
+              div.className = "conversation";
+              div.innerHTML = "<h4>" + conversation.title + "</h4>";
+              for (var j = 0; j < messages.length; j++) {
+                  var message = document.createElement("pre");
+                  message.className = "message";
+                  message.innerHTML = `<div class="author">${messages[j].author}</div>`
+                  if (messages[j].parts) {
+                    for (var k = 0; k < messages[j].parts.length; k++) {
+                      var part = messages[j].parts[k];
+                      if (part.text) {
+                        message.innerHTML += `<div>${part.text}</div>`;
+                      } else if (assetsJson) {
+                        if (part.transcript) {
+                          message.innerHTML += `<div>[Transcript]: ${part.transcript}</div>`;
+                        } else if (part.asset) {
+                          var link = assetsJson[part.asset.asset_pointer];
+                          if (link) {
+                            message.innerHTML += `<div>[File]: <a href="${link}">${link}</a></div>`;
+                          } else {
+                            message.innerHTML += `<div>[File]: -Deleted-</div>`;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  div.appendChild(message);
+              }
+              root.appendChild(div);
+          }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
